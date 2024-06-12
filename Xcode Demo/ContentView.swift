@@ -25,7 +25,7 @@ struct ContentView: View {
             .padding(35)
 
             Text("Adjust Image Brightness")
-
+//ok
             Text("\(x)")
                 .padding(.top, 8.0)
         }
