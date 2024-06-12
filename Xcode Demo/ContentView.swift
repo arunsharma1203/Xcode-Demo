@@ -22,7 +22,7 @@ struct ContentView: View {
                     isEditing = editing
                 }
             )
-            .padding(30)
+            .padding(35)
 
             Text("Adjust Image Brightness")
 
