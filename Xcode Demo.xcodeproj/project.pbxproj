@@ -14,8 +14,11 @@
 		5F66EF432C17FF7D00B36678 /* Xcode_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66EF422C17FF7D00B36678 /* Xcode_DemoTests.swift */; };
 		5F66EF4D2C17FF7D00B36678 /* Xcode_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66EF4C2C17FF7D00B36678 /* Xcode_DemoUITests.swift */; };
 		5F66EF4F2C17FF7D00B36678 /* Xcode_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66EF4E2C17FF7D00B36678 /* Xcode_DemoUITestsLaunchTests.swift */; };
-		5FDCFBDF2C19EF06008804C6 /* WhiteLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCFBDE2C19EF06008804C6 /* WhiteLineView.swift */; };
-		5FDCFBE12C1A935F008804C6 /* CustomSliderView..swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCFBE02C1A935F008804C6 /* CustomSliderView..swift */; };
+		5F9E55452C1DD7C4006357E4 /* LessonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E55442C1DD7C4006357E4 /* LessonShapes.swift */; };
+		5F9E55472C1DD98B006357E4 /* LessonImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E55462C1DD98B006357E4 /* LessonImageEditor.swift */; };
+		5F9E55492C1EF9BD006357E4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E55482C1EF9BD006357E4 /* Product.swift */; };
+		5F9E554B2C1EF9EC006357E4 /* LessonStoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9E554A2C1EF9EC006357E4 /* LessonStoreData.swift */; };
+		5FDCFBE12C1A935F008804C6 /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDCFBE02C1A935F008804C6 /* CustomSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +49,12 @@
 		5F66EF482C17FF7D00B36678 /* Xcode DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F66EF4C2C17FF7D00B36678 /* Xcode_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_DemoUITests.swift; sourceTree = "<group>"; };
 		5F66EF4E2C17FF7D00B36678 /* Xcode_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F9E55442C1DD7C4006357E4 /* LessonShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonShapes.swift; sourceTree = "<group>"; };
+		5F9E55462C1DD98B006357E4 /* LessonImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonImageEditor.swift; sourceTree = "<group>"; };
+		5F9E55482C1EF9BD006357E4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5F9E554A2C1EF9EC006357E4 /* LessonStoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonStoreData.swift; sourceTree = "<group>"; };
 		5FDCFBDD2C19D8D7008804C6 /* Xcode-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Xcode-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
-		5FDCFBDE2C19EF06008804C6 /* WhiteLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLineView.swift; sourceTree = "<group>"; };
-		5FDCFBE02C1A935F008804C6 /* CustomSliderView..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderView..swift; sourceTree = "<group>"; };
+		5FDCFBE02C1A935F008804C6 /* CustomSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +107,12 @@
 			children = (
 				5FDCFBDD2C19D8D7008804C6 /* Xcode-Demo-Info.plist */,
 				5F66EF312C17FF7C00B36678 /* Xcode_DemoApp.swift */,
+				5F9E55442C1DD7C4006357E4 /* LessonShapes.swift */,
+				5F9E55482C1EF9BD006357E4 /* Product.swift */,
+				5F9E554A2C1EF9EC006357E4 /* LessonStoreData.swift */,
+				5F9E55462C1DD98B006357E4 /* LessonImageEditor.swift */,
 				5F66EF332C17FF7C00B36678 /* ContentView.swift */,
-				5FDCFBE02C1A935F008804C6 /* CustomSliderView..swift */,
-				5FDCFBDE2C19EF06008804C6 /* WhiteLineView.swift */,
+				5FDCFBE02C1A935F008804C6 /* CustomSliderView.swift */,
 				5F66EF352C17FF7D00B36678 /* Assets.xcassets */,
 				5F66EF372C17FF7D00B36678 /* Preview Content */,
 			);
@@ -266,9 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F66EF342C17FF7C00B36678 /* ContentView.swift in Sources */,
-				5FDCFBE12C1A935F008804C6 /* CustomSliderView..swift in Sources */,
+				5F9E55452C1DD7C4006357E4 /* LessonShapes.swift in Sources */,
+				5FDCFBE12C1A935F008804C6 /* CustomSliderView.swift in Sources */,
+				5F9E554B2C1EF9EC006357E4 /* LessonStoreData.swift in Sources */,
+				5F9E55472C1DD98B006357E4 /* LessonImageEditor.swift in Sources */,
 				5F66EF322C17FF7C00B36678 /* Xcode_DemoApp.swift in Sources */,
-				5FDCFBDF2C19EF06008804C6 /* WhiteLineView.swift in Sources */,
+				5F9E55492C1EF9BD006357E4 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
